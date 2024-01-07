@@ -1,0 +1,21 @@
+{
+    "name": "jigarius/webska",
+    "description": "Scan a URL at regular intervals and notify if a needle is found.",
+    "type": "project",
+    "require": {
+        "guzzlehttp/guzzle": "7.9.x-dev",
+        "php": "^8.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Webska\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jigarius",
+            "email": "r2d2@jigarius.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
